@@ -1,4 +1,14 @@
+header {
+	background-color: darkgray
+}
+main {
+	background-color: gray
+}
+footer {
+	background-color: darkgray
+}
+
 #markiert {
-     color: #202088; 
-     background-color: #CDEF00;
+     	color: #202088; 
+     	background-color: #CDEF00;
 }
