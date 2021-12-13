@@ -1,14 +1,34 @@
-header {
-	background-color: darkgray
-}
-main {
-	background-color: gray
-}
 footer {
-	background-color: darkgray
+	background-color: darkgray;
 }
+header {
+	background-color: yellow;
+	}
+
 
 #markiert {
      	color: #202088; 
      	background-color: #CDEF00;
 }
+
+.classblackborder {
+	border: 5px solid brown;
+	padding: 5px;
+	margin: 5px;
+	}
+.ghub {
+	padding: 5px;
+	float: left;
+	}
+
+#fkrechner {
+	background-color: yellow;
+	}
+
+	
+#ghub1 {
+	background-color: rgb(255, 0, 128);
+		}
+#ghub2 {
+	background-color: rgb(8, 94, 151);
+		}

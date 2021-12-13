@@ -6,66 +6,89 @@
 		<title>HTML und GIT</title>
 		<meta charset="UTF-8">
 		<link rel="stylesheet" href="style.css">
+		<script scr="index.js" type="module"></script>
 	</head>
 
 
 	<body>
-		<header>
+		<header id="idblackborder" class="classblackborder">
 			<h1>HTML und Git/GitHub</h1>
 			<p>Heute lernen wir etwas über die Ausdruckssprache HTML mit der man schöne Webseiten basteln kann.</p>
 		</header>
 		
+		
+		
+		
+
 		<main>
-			<h2>Git und GitHub</h2>
-			<p>Git und <span id="markiert">GitHub</span> sind im Alltag sicherlich wichtig. Aber so ganz locker flockig geht das noch nicht von der Hand. Nachfolgend mal ein Bild des Feindes!</p>
-			<img src="/git.jpeg">
-			<p>Bitte <strong>UNBEDINGT</strong> beachten: <em>das hier verwendete GitHub Logo ist urheberrechtlich bestimmt geschützt!</em></p> 
-			<h2>Anmeldung</h2>
-			<p>Du willst mehr über HTML, Git und GitHub erfahren? Dann trage dich doch einfach in meinen Newsletter ein.</p>
-			<p>Die nachfolgenden Felder sind in einer Tabelle verwurstelt!</p>
-			<table border="1">
-				<tr>
-					<td>
-						<p><strong>Vorname:  </strong>
-					</td>
-					<td>
-						<input type="Vorname">
-					</td>
-				</tr>
-                        	<tr>
-                                	<td>
-                                        	<p><strong>Nachname:  </strong>
-                                	</td>
-                                	<td>
-                                        	<input type="Vorname">
-                                	</td>
-                        	</tr>
-                        	<tr>
-                                	<td>
-                                        	<p><strong>E-Mail:  </strong>
-                                	</td>
-                                	<td>
-                                        	<input type="Vorname">
-                                	</td>
-                        	</tr>
-			</table>
-	
-			<p>Was bringt dir eine Anmeldung?</p>
-			<ul>
-				<li>News</li>
-				<li>Tricks</li>
-				<li>Spass</li>
-			</ul>
+				<div id="ghub1" class="classblackborder">
+					<h2>Git und GitHub</h2>
+					<p>Git und <span id="markiert">GitHub</span> sind im Alltag sicherlich wichtig. Aber so ganz locker flockig
+						geht das noch nicht von der Hand. Nachfolgend mal ein Bild des Feindes!</p>
+					<img src="/git.jpeg">
+					<p>Bitte <strong>UNBEDINGT</strong> beachten: <em>das hier verwendete GitHub Logo ist urheberrechtlich
+							bestimmt geschützt!</em></p>
+				</div>
+				<div id="ghub2" class="classblackborder">
+					<h2>Anmeldung</h2>
+					<p>Du willst mehr über HTML, Git und GitHub erfahren? Dann trage dich doch einfach in meinen Newsletter ein.
+					</p>
+					<p>Die nachfolgenden Felder sind in einer Tabelle verwurstelt!</p>
+					<table border="1">
+						<tr>
+							<td>
+								<p><strong>Vorname: </strong>
+							</td>
+							<td>
+								<input type="Vorname">
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<p><strong>Nachname: </strong>
+							</td>
+							<td>
+								<input type="Vorname">
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<p><strong>E-Mail: </strong>
+							</td>
+							<td>
+								<input type="Vorname">
+							</td>
+						</tr>
+					</table>
+		
+					<p>Was bringt dir eine Anmeldung?</p>
+					<ul>
+						<li>News</li>
+						<li>Tricks</li>
+						<li>Spass</li>
+					</ul>
+				</div>
+
+
+
+			<div id="fkrechner" class="classblackborder">
+				<h2>Fakultät-Rechner</h2>
+				<label for="eingabe">INPUT:</label> <input id="eingabe" type="text"><br/>
+				<label for="ausgabe">RESULT:</label> <input id="ausgabe" type="text"><br/>
+				<input id="berechnen" type="button" value="berechnen"><br/>
+			</div>
+
+			
 		</main>
 		
-		<footer>
+		<footer class="classblackborder">
 			<h2>Links</h2>
 			<a href="https://www.telekom.de">externer Link: Zur Telekom Startseite</a><br>
 			<a href="/seite2.html">interner Link: auf Seite 2</a><br>
 			<h2>Übungen</h2>
 			<a href="/capture.html">Uebung Capture</a><br>
 		</footer>
-	
+		
 	</body>
         
 </html>  
